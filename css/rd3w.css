@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.icon-logo{
+    width: 55px;
+}
+span{
+    padding:0 15px;
+}
+nav{
+    width:80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    /*----------------------*/
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.nav-left{
+    display: inline;
+    /* border: 1px solid #ccc; */
+}
+.nav-right{
+    display: inline;
+    /* border: 1px solid #ccc; */
+    /*----------------------*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+main{
+    width:80%;
+    margin:0 auto;
+}
+.flyer{
+    width:100%;
+    min-height: 500px;
+    background-image: url('../img/pexels-andrea-piacquadio-3768126.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /*----------------------*/
+    /* Alinhamento do conteúdo interno */
+    /*----------------------*/
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+.flyer-div{
+    /* border: 1px solid red; */
+    margin:50px;
+    padding: 50px 100px;
+    background-color:rgba(255, 255, 255, 0.692);
+    box-shadow: 5px 5px 5px rgb(128, 117, 120);
+    border-radius:15px;
+}
+.flyer-div h1{
+    font-size:3em;
+    font-style: italic;
+}
+.flyer-div p{
+    font-size:1.5em;
+}
+.content h2{
+    margin:45px 0 15px;
+    font-size:2em;
+    border-bottom: 2px solid #ddd;
+}
+.content p{
+    margin:15px ;
+    line-height:1.5em;
+    text-indent: 50px;
+    text-align: justify;
+}
+footer{
+    text-align: center;
+    margin:15px 0;
+    padding:15px 0;
+    border-top:2px solid #ddd;
+    width:80%;
+    margin:0 auto;
+}
